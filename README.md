@@ -1,13 +1,13 @@
+Projeto Agenda 
+
 link do site http://34.95.156.105/
 
 
-Cursando Udemy Aprendendo 
+Cursando Udemy usados
 * Javascript
-* Typescript
 * NODE
-* REACT
 * MONGODB
 * HTML
-* CSS
+* bootstrap
 * NODE
 * WEBPACK
