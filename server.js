@@ -21,16 +21,14 @@ const path = require('path');
 const csrf = require('csurf');
 const { middlewareGlobal, checkCsrfError, csrfMiddleware } = require('./src/middlewares/middleware');
 
-<<<<<<< HEAD
-// app.use(helmet()); // helmet começou a causar problemas no localhost por conta da falta de SSL
-=======
+
 mongoose.connect(process.env.CONNECTIONSTRING, {
   useNewUrlParser: true, // Usa o novo parser de URLs (recomendado)
   useUnifiedTopology: true, // Usa o novo mecanismo de gerenciamento de conexões
 }).then(()=>
   console.log('conecetei a base de dados'),
   app.emit("Pronto"));
->>>>>>> 6a71dadb3e513bfa4e4cc8b3fb167f6d7fa96eb5
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
