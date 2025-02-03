@@ -6,7 +6,7 @@ const routes = require('./routes');
 const path = require('path');
 const mongoose = require ('mongoose');
 
-mongoose.connect(process.env.CONECTIONSTRING, {
+mongoose.connect(process.env.CONNECTIONSTRING, {
   useNewUrlParser: true, // Usa o novo parser de URLs (recomendado)
   useUnifiedTopology: true, // Usa o novo mecanismo de gerenciamento de conexões
 }).then(()=>
